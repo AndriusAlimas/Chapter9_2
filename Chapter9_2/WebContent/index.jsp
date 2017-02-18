@@ -4,9 +4,12 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>Index Page</title>
 </head>
 <body>
-
+		<form action="controller.do" method="POST">
+		  <b>Enter your name: </b> <input type="text" name="user" />
+		  <input type="SUBMIT" value="ENTER" /> 
+		</form>
 </body>
 </html>
